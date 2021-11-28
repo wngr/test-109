@@ -1,0 +1,9 @@
+[package]
+name = "ipfs_test"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+async-std = { version = "1.10.0", features = ["attributes"] }
+ipfs-embed = "0.22.4"
+libipld = "0.12.0"
